@@ -133,7 +133,7 @@ const useStyles = makeStyles((theme) => ({
       boxShadow: '0 3px 10px 12px rgba(255, 105, 135, .3)',
    },
 }))
-// const stripes = [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }, { id: 5 }, { id: 6 }]
+
 const PortfolioHeader = () => {
    const classes = useStyles()
    return (
