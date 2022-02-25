@@ -7,7 +7,7 @@ import PermPhoneMsgOutlinedIcon from '@mui/icons-material/PermPhoneMsgOutlined'
 import { Hidden } from '@mui/material'
 
 const useStyles = makeStyles((theme) => ({
-   portfolioMain: {
+   portfolioMain_header: {
       padding: '11rem 0 0 0',
       [theme.breakpoints.down('md')]: {
          padding: '5rem 1rem 3rem 1rem ',
@@ -146,7 +146,7 @@ const PortfolioHeader = () => {
             <div className={classes.strip_5} />
             <div className={classes.strip_6} />
          </Hidden>
-         <Container maxWidth="lg" className={classes.portfolioMain}>
+         <Container maxWidth="lg" className={classes.portfolioMain_header}>
             <Paper variant="outlined" className={classes.headerWrapper}>
                <Grid container direction="row" justifyContent="space-evenly" alignItems="center">
                   <img
