@@ -1,5 +1,5 @@
 import PortfolioHeader from '../src/components/sections/PortfolioHeader'
-import { makeStyles } from '@mui/styles'
+import { makeStyles } from '@material-ui/core/styles'
 import NavTabs from '../src/components/sections/NavTabs'
 import Footer from '../src/components/sections/Footer'
 
