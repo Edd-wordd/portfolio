@@ -125,7 +125,7 @@ const projects = [
       details: 'Personal portfolio page that allows users to view my projects and contact me.',
       image: 'https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG5lb24lMjBwcm9maWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
       href_1: 'https://edd-wordd.github.io/vr_worlds/',
-      href_2: 'https://github.com/Edd-wordd/vr_worlds',
+      href_2: 'https://github.com/Edd-wordd/portfolio',
    },
    {
       title: 'Pantry App',

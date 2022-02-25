@@ -3,7 +3,7 @@ import { makeStyles } from '@mui/styles'
 import { Grid, Typography } from '@material-ui/core'
 
 const useStyles = makeStyles({
-   root: {
+   footer: {
       width: '100%',
       height: 'auto',
       padding: '1.5rem 0rem',
@@ -23,7 +23,7 @@ const Footer = () => {
             direction="row"
             alignItems="center"
             justifyContent="center"
-            className={classes.root}
+            className={classes.footer}
          >
             <Typography>© Copyright {new Date().getFullYear()} | All Rights Reserved</Typography>
          </Grid>
