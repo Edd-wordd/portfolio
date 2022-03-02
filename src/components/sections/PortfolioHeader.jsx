@@ -18,6 +18,10 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: 'rgba(0, 0, 0, 0.5)',
       borderRadius: '1rem',
       border: '1px solid #f80759',
+      padding: '0',
+      [theme.breakpoints.down('md')]: {
+         padding: '1rem ',
+      },
    },
    profileImage: {
       width: 285,
