@@ -206,12 +206,6 @@ const useStyles = makeStyles((theme) => ({
          margin: '0 0 1.5rem',
       },
    },
-   grid: {
-      padding: '0 0 0 3.5rem',
-      [theme.breakpoints.down('md')]: {
-         padding: '0',
-      },
-   },
 }))
 
 export default function NavTabs() {
@@ -250,13 +244,7 @@ export default function NavTabs() {
                <Spinner />
             ) : (
                <>
-                  <Grid
-                     container
-                     direction="row"
-                     alignItems="center"
-                     justifyContent="flex-start"
-                     className={classes.grid}
-                  >
+                  <Grid container direction="row" alignItems="center" justifyContent="flex-start">
                      {projects.map((project, index) => (
                         <TabPanel
                            key={index}
@@ -271,13 +259,7 @@ export default function NavTabs() {
                         />
                      ))}
                   </Grid>
-                  <Grid
-                     container
-                     direction="row"
-                     alignItems="center"
-                     justifyContent="flex-start"
-                     className={classes.grid}
-                  >
+                  <Grid container direction="row" alignItems="center" justifyContent="flex-start">
                      {figmaMocks.map((figmaMock, index) => (
                         <TabPanel
                            key={index}
